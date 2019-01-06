@@ -76,5 +76,5 @@ or
 ####Support 3.x and 4.x version of phpmyadmin
 
 <b>Thanks to skurudo</b>
-<p>Source
+<p>Source :
 <i>https://github.com/skurudo/phpmyadmin-fixer</i>
