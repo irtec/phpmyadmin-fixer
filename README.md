@@ -77,4 +77,4 @@ or
 
 <b>Thanks to skurudo</b>
 <p>Source
-<p><i>https://github.com/skurudo/phpmyadmin-fixer</i>
+<i>https://github.com/skurudo/phpmyadmin-fixer</i>
