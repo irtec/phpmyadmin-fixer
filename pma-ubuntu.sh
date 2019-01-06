@@ -164,12 +164,12 @@ MYSQL_PMA3
 
 #MYSQL DB and TABLES ADDITION
 echo "Download tables for our mysql server";
-wget --no-check-certificate https://raw.githubusercontent.com/skurudo/phpmyadmin-fixer/master/create_tables.sql;
+wget --no-check-certificate https://raw.githubusercontent.com/irtec/phpmyadmin-fixer/master/create_tables.sql;
 
 # Check wget
 if [ -e '/usr/bin/wget' ]; then
     echo "Download via wget" &&
-    wget --no-check-certificate https://raw.githubusercontent.com/skurudo/phpmyadmin-fixer/master/create_tables.sql;
+    wget --no-check-certificate https://raw.githubusercontent.com/irtec/phpmyadmin-fixer/master/create_tables.sql;
     else
         echo "Error: download via wget failed"
 fi
@@ -177,7 +177,7 @@ fi
 # Check curl
 if [ -e '/usr/bin/curl' ]; then
     echo "Download via curl" &&
-    curl -O -k https://raw.githubusercontent.com/skurudo/phpmyadmin-fixer/master/create_tables.sql;
+    curl -O -k https://raw.githubusercontent.com/irtec/phpmyadmin-fixer/master/create_tables.sql;
     else
         echo "Error: download via curl failed."
 fi
