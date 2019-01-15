@@ -80,5 +80,5 @@ or
 <i>https://github.com/skurudo/phpmyadmin-fixer</i>
 
 # IonCube VestaCP (Centos 7)
-<pre>yum install --enablerepo=remi  php-ioncube-loader
-service httpd restart</pre>
+<pre># yum install --enablerepo=remi  php-ioncube-loader
+# service httpd restart</pre>
